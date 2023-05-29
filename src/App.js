@@ -1,12 +1,14 @@
 import React from "react";
+import Container from "./components/Container";
+
 
 
 function App() {
     return (
         <div>
-
-            <h1>This is my portfolio</h1>
+            <Container />
         </div>
+
     )
 }
 
