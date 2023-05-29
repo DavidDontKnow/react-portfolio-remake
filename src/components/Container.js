@@ -5,6 +5,7 @@ import Contact from "./pages/Contact.js";
 import Footer from "./Footer.js";
 import NavBar from "./NavBar.js";
 
+
 function Container() {
     const [currentPage, setCurrentPage] = useState("About");
 
@@ -24,7 +25,7 @@ function Container() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
+        <div className="bg-slate-800">
             <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
             <Footer />

@@ -3,10 +3,10 @@ import React from "react";
 
 function About() {
     return (
-        <section id="About">
-            <h2>About Me</h2>
+        <section id="About" className="justify-items-center align-content-center align-items-center text-center">
+            <h2 className=" text-center bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">About Me</h2>
 
-            <img src="https://avatars.githubusercontent.com/u/108785241?v=4" alt="David Gutierrez" />
+            <img className=" border-2 border-slate-700 rounded-full" src="https://avatars.githubusercontent.com/u/108785241?v=4" width={150} height={150} alt="David Gutierrez" />
             <p>
                 Full-stack web developer, seeking an entry-level position where he can apply his technical skills and problem-solving abilities to create engaging and responsive web applications.
             </p>

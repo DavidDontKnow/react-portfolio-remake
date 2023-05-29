@@ -1,0 +1,11 @@
+:root {
+    --black: #171a21;
+    --light-blue: #66c0f4;
+    --dark-blue: #1b2838;
+    --mid-blue: rgb(16, 24, 36);
+    --gray: #c7d5e0;
+}
+
+html {
+    background-color: var(--mid-blue);
+}
