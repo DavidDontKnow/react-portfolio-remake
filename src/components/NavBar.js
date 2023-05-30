@@ -3,7 +3,7 @@ import Resume from "../assets/Resume.pdf";
 function NavBar({ currentPage, handlePageChange }) {
 
     return (
-        <div className="bg-slate-700">
+        <div className="bg-slate-700 w-screen">
             <header className="mx-auto flex items-center justify-between p-2 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text font-bold text-transparent sm:text-3xl uppercase tracking-tight">
                 <h1> <span className="david">David </span> <span className="max-md:hidden"> Gutierrez</span></h1>
                 <nav >

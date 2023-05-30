@@ -25,7 +25,7 @@ function Container() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div className="bg-slate-800">
+        <div className="bg-slate-800 h-screen w-screen">
             <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
             <Footer />
