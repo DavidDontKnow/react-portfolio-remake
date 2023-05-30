@@ -3,12 +3,14 @@ import github from "../../assets/img/icons8-github-250.png";
 import linkedin from "../../assets/img/icons8-linkedin-250.png";
 import twitter from "../../assets/img/icons8-twitter-250.png";
 import resume from "../../assets/img/icons8-resume-80.png";
+import resumePDF from "../../assets/Resume.pdf";
 
 
 
 
 function About() {
     return (
+
         <section id="About" className=" text-center h-screen">
             <h2 className=" text-center bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">About Me</h2>
 
@@ -16,7 +18,7 @@ function About() {
 
 
             <div>
-                <div className="w-4/5 mx-auto">
+                <div className="w-4/5 mx-auto lg:w-3/4 md:w-3/4">
                     <div className="w-full shadow-2xl subpixel-antialiased rounded h-64 bg-black border-black mx-auto">
                         <div className="flex items-center h-6 rounded-t bg-gray-100 border-b border-gray-500 text-center text-black"
                             id="headerTerminal">
@@ -62,9 +64,9 @@ function About() {
             </div>
 
 
-            <h3>Socials</h3>
+            <h3 className="mt-48 text-center bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">Socials</h3>
 
-            <div className="flex justify-center m-24 ">
+            <div className="flex justify-center mt-4">
                 <div
                     className="m-1 transition-all duration-300 hover:rotate-12 transition-all duration-300 hover:scale-110 ">
                     <a href="https://www.linkedin.com/in/davidpenagutierrez/ " target="_blank"
@@ -85,7 +87,7 @@ function About() {
                     className="m-1 transition-all duration-300 hover:rotate-12 transition-all duration-300 hover:scale-110">
                     <a href="https://docs.google.com/document/d/1sVvbc-S7Tor4lv4aAxIdudP4EfrUE3OoMIZLHy1yE84/edit?usp=sharing"
                         target="_blank" rel="noopener noreferrer"><img className="aspect-[2/2] w-16"
-                            src={resume} alt="Resume" /></a>
+                            src={resume} download={resumePDF} alt="Resume" /></a>
                 </div>
             </div>
 
